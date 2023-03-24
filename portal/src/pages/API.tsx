@@ -12,7 +12,10 @@ You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
-import 'components/styles/Swagger.css'
+import 'components/styles/css-root.css'
+import 'components/styles/swagger-ui.css'
+import 'components/styles/swagger-fixes.css'
+import 'components/styles/css-root-override.css'
 import React, { useMemo } from 'react'
 import { Box } from '@traefiklabs/faency'
 import { useParams } from 'react-router-dom'
